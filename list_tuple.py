@@ -44,14 +44,26 @@
 
                   ###WAP to check if a list contains a palindrome of elements. (Hint: use copy() method)
 
-list1 = [1, 2, 3, 2, 1] #palindrome
-list1 = [1, 2, 3, 2, 2] #NOT palindrome
+# list1 = [1, 2, 3, 2, 1] #palindrome
+# list1 = [1, 2, 3, 2, 2] #NOT palindrome
 
-list2 = list1.copy()
-list2.reverse()
+# list2 = list1.copy()
+# list2.reverse()
 
 
-if(list1 == list2):
-    print("palindrome")
-else:
-    print("NOT palindrome")
+# if(list1 == list2):
+#     print("palindrome")
+# else:
+#     print("NOT palindrome")
+
+#                   ###WAP to count the numbers of students with the "A" grade in the following tuple
+# test = ("C", "D", "A", "A", "B", "B", "A")
+
+# print(test.count("A"))
+
+#                   ###Store the above values in aclist & sort them from "A" to "D"
+# list1 = list(test)
+# print(type(list1))     
+
+# list1.sort()
+# print(list1)
