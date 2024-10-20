@@ -9,7 +9,7 @@
 # print(list.remove(45.45))
 # print(list.pop(1))
 # print(list)
-#print(list.index(67))
+# print(list.index(67))
 
 
 # tup = (2, 1, 4, 3, 1, 5) #tuple in python
@@ -30,14 +30,14 @@
 # list.append(input("enter your second favourite movie name: "))
 # list.append(input("enter your third favourite movie name: "))
 
-# # first = input("enter your first favourite movie name: ")
-# # second = input("enter your second favourite movie name: ")
-# # third = input("enter your third favourite movie name: ")
-# # list = [first, second, third]
+# first = input("enter your first favourite movie name: ")
+# second = input("enter your second favourite movie name: ")
+# third = input("enter your third favourite movie name: ")
+# list = [first, second, third]
 
-# # list.append(first)
-# # list.append(second)
-# # list.append(third)
+# list.append(first)
+# list.append(second)
+# list.append(third)
 # print(list)
 
 
