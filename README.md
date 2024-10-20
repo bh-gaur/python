@@ -1,3 +1,3 @@
 Python
 
-"%{[@metadata][beat]}-%{[@metadata][version]}-%{+YYYY.MM.dd}"
+For more information https://www.w3schools.com/python/python_strings.asp
