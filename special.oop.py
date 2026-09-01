@@ -26,16 +26,16 @@ emp_1 = Employee("John", "Doe", 50000)
 emp_2 = Employee("Jane", "Smith", 60000)
 emp_3 = Employee("test", "user", 70000)
 
-# print(emp_1)  #outputs: <__main__.Employee object at 0x7d53361942e0>  with default __str__ and __repr__ methods
+print(emp_1)  #outputs: <__main__.Employee object at 0x7d53361942e0>  with default __str__ and __repr__ methods
 
-# print(repr(emp_1))
+print(repr(emp_1))
 
-# print(str(emp_1))
-# print(emp_1.__repr__())
-# print(emp_1.__str__())
+print(str(emp_1))
+print(emp_1.__repr__())
+print(emp_1.__str__())
 
-# print(emp_1)
+print(emp_1)
 
-# print(emp_1 + emp_2)  #outputs: 110000
+print(emp_1 + emp_2)  #outputs: 110000
 
 print(len(emp_1))      #outputs: 8
