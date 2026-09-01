@@ -1,46 +1,46 @@
-# class Employee:
+class Employee:
     
-#     num_of_emps = 0      #class variable
-#     raise_amount = 1.05  #class variable
+    num_of_emps = 0      #class variable
+    raise_amount = 1.05  #class variable
 
-#     def __init__(self, first_name, last_name, salary):
-#         self.first_name = first_name
-#         self.last_name = last_name
-#         self.email = f"{first_name.lower()}.{last_name.lower()}@company.com"
-#         self.salary = salary
+    def __init__(self, first_name, last_name, salary):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.email = f"{first_name.lower()}.{last_name.lower()}@company.com"
+        self.salary = salary
 
-#         Employee.num_of_emps += 1    #incrementing class variable
+        Employee.num_of_emps += 1    #incrementing class variable
 
-#     def full_name(self):
-#         return "{} {}".format(self.first_name, self.last_name)
+    def full_name(self):
+        return "{} {}".format(self.first_name, self.last_name)
     
-#     def apply_raise(self):
-#         self.salary = int(self.salary * self.raise_amount)
+    def apply_raise(self):
+        self.salary = int(self.salary * self.raise_amount)
 
-# class Developer(Employee):
-#     raise_amount = 1.10  #overriding class variable
+class Developer(Employee):
+    raise_amount = 1.10  #overriding class variable
 
-#     def __init__(self, first_name, last_name, salary, programming_language):
-#         super().__init__(first_name, last_name, salary)
-#         # Employee.__init__(self, first_name, last_name, salary)  #alternative way
+    def __init__(self, first_name, last_name, salary, programming_language):
+        super().__init__(first_name, last_name, salary)
+        # Employee.__init__(self, first_name, last_name, salary)  #alternative way
 
-#         self.programming_language = programming_language
+        self.programming_language = programming_language
 
-# dev_1 = Developer("John", "Doe", 50000, "Python")
-# dev_2 = Developer("Jane", "Smith", 60000, "Java")
+dev_1 = Developer("John", "Doe", 50000, "Python")
+dev_2 = Developer("Jane", "Smith", 60000, "Java")
 
 
-# # print(help(Developer))
-# # print(dev_1.email)
-# # print(dev_2.email)
+# print(help(Developer))
+# print(dev_1.email)
+# print(dev_2.email)
 
-# print(dev_1.programming_language)
-# print(dev_2.programming_language)
-# # print(dev_1.salary)
-# # dev_1.apply_raise()
-# # print(dev_1.salary)
+print(dev_1.programming_language)
+print(dev_2.programming_language)
+# print(dev_1.salary)
+# dev_1.apply_raise()
+# print(dev_1.salary)
 
-# # print(Employee.raise_amount)
+# print(Employee.raise_amount)
 
 
 

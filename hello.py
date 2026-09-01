@@ -1,8 +1,8 @@
 # This will print Hello, world!
 
-# print("Hello, world!")
+print("Hello, world!")
 
-# print("test".__dir__())
+print("test".__dir__())
 
 import time
 import numpy as np

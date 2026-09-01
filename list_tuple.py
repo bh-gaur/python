@@ -1,5 +1,9 @@
 # list = [45, 45.45, 67, 23] #list in python
 
+# print(type(list))
+# print(list[0:2]) #excliude 2 index elements
+# print(list[-1]) #last element
+# print(list[-2:-1]) #[67]
 # # list.append("test")
 # print(list[0])
 # print(list.sort())
@@ -10,6 +14,15 @@
 # print(list.pop(1))
 # print(list)
 # print(list.index(67))
+# Pass the data type or an instance of it
+# print(dir(list))  # prints all the attributes and methods of list object
+
+# sorted_list = sorted(list) #sorted() function returns a new sorted list from the elements of any iterable.
+# print(sorted_list)
+# print(list)
+# list.sort()
+# print(list)
+
 
 
 # tup = (2, 1, 4, 3, 1, 5) #tuple in python
@@ -67,3 +80,14 @@
 
 # list1.sort()
 # print(list1)
+
+
+                ###WAP to check if a string is a palindrome.
+
+str1 = input("enter a string: ")
+str2 = str1[::-1]
+
+if(str1 == str2):
+    print("palindrome")
+else:
+    print("NOT palindrome")

@@ -1,19 +1,19 @@
-# dict = {"name" : "bhola",
-#         "age" : 19,
-#         "weight" : 50.20,
-#         "programming languages" : ["python", "C"],
-#         34 : ("test", "python"),
-#         "subjects" : {    #nested dictonary
-#             "phy" : 98,
-#             "chem" : 95,
-#             "maths" : 99
-#         }
-#     }
+dict = {"name" : "bhola",
+        "age" : 19,
+        "weight" : 50.20,
+        "programming languages" : ["python", "C"],
+        34 : ("test", "python"),
+        "subjects" : {    #nested dictonary
+            "phy" : 98,
+            "chem" : 95,
+            "maths" : 99
+        }
+    }
 
-# print(dict)
-# print(dict["name"])
-# dict["age"] = 23 
-# print("\n",dict)
+print(dict)
+print(dict["name"])
+dict["age"] = 23 
+print("\n",dict)
 
 # dict["college year"] = "2nd" #add new key value and can assign new value to key
 
